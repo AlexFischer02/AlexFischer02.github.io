@@ -1,5 +1,5 @@
 body {
-    background:skyblue;
+    background: skyblue;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -7,13 +7,17 @@ body {
     display:flex;
     padding:10px;
     margin:20px;
+    margin-bottom: 30px;
     background:lightgray;
+    border-radius:5px;
+    box-shadow: 5px 8px darkblue;
 }
 
 .assignment img {
     width:200px;
     margin-right:20px;
-    border: 4px solid darkblue
+    border: 4px solid darkblue;
+    border-radius:5px;
 }
 
 h1 {
@@ -24,4 +28,30 @@ h1 {
 a {
     text-decoration:none;
     color:lightseagreen;
+}
+
+.assignment a:hover{
+    color: darkblue;
+}
+
+
+.SketchAssignment img{
+    width:125px;
+    margin-right:18px;
+    border: 4px solid darkblue;
+    border-radius:5px;
+}
+
+.SketchAssignment {
+    display:flex;
+    padding:10px;
+    margin:20px;
+    margin-bottom: 30px;
+    background:lightgray;
+    border-radius:5px;
+    box-shadow: 5px 8px darkblue;
+}
+
+.SketchAssignment a:hover{
+    color: darkblue;
 }
